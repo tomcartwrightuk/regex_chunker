@@ -9,8 +9,8 @@ To match a pattern of tags, pass in regexes in the form {TAG}. All the usual reg
 Useage
 
 To abtain an enumerable of tokens tagged with Parts of Speech (POS) use treat (https://github.com/louismullie/treat).
-
+```
 reg_chunker = RegexChunker.new(/({JJ})*({NN})/)
 matching_chunks = reg_chunker.parse(tagged_tokens)
-
+```
 
